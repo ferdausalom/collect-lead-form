@@ -1,0 +1,262 @@
+/*
+Collected lead form CSS
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box !important; /* 1 */
+  border-width: 0 !important; /* 2 */
+  border-style: solid !important; /* 2 */
+  border-color: #e5e7eb !important; /* 2 */
+}
+
+#cl-lead-form input::placeholder, #cl-lead-form textarea::placeholder{
+  font-size: 15px !important;
+  color: rgb(179 179 179) !important;
+}
+#cl-lead-form input, #cl-lead-form optgroup, #cl-lead-form select, #cl-lead-form textarea {
+  font-size: 15px !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+}
+#cl-lead-form textarea{
+  min-height: 140px !important;
+}
+#cl-lead-form{
+    padding: 2rem !important;
+    background-color: #fff !important;
+}
+#cl-lead-form label{
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+.cl-wrapper{
+  width: 400px !important;
+  padding: 15px !important;
+}
+.cl-relative{
+  position: relative;
+}
+.my-4 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) !important;
+}
+.py-8 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+.px-8 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+.cl-px-3 {
+  padding-left: .8rem !important;
+  padding-right: .8rem !important;
+}
+.px-6 {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+.border-gray-200 {
+  border-color: rgb(229 231 235) !important;
+}
+.border {
+  border-width: 1px !important;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.w-full {
+  width: 100% !important;
+}
+.mt-4 {
+  margin-top: 1rem !important;
+}
+.cl-mb-6 {
+  margin-bottom: 1.5rem !important;
+}
+.text-white {
+  color: rgb(255 255 255) !important;
+}
+.font-medium {
+  font-weight: 500 !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.py-2 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.cl-py-3 {
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+}
+.px-6 {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+.text-gray-600 {
+  color: rgb(75 85 99) !important;
+}
+
+.normal-case {
+  text-transform: none !important;
+}
+.block {
+  display: block !important;
+}
+.text-red-500 {
+  color: rgb(239 68 68) !important;
+}
+.py-1 {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+.italic {
+  font-style: italic !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+.cl-hidden {
+  display: none;
+}
+.text-red-800 {
+  color: rgb(153 27 27) !important;
+}
+
+.text-sm {
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
+
+.p-4 {
+  padding: 1rem !important;
+}
+.p-3 {
+  padding: .8rem !important;
+}
+
+.bg-red-50 {
+  background-color: rgb(254 242 242) !important;
+}
+
+.border-red-300 {
+  border-color: rgb(252 165 165) !important;
+}
+
+.border {
+  border-width: 1px !important;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.mb-4 {
+  margin-bottom: 1rem !important;
+}
+.w-5 {
+  width: 1.25rem !important;
+}
+
+.h-5 {
+  height: 1.25rem !important;
+}
+
+.inline {
+  display: inline !important;
+}
+
+.mr-3 {
+  margin-right: 0.75rem !important;
+}
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%) !important;
+  padding: 11px 35px !important;
+  text-align: center !important;
+  transition: 0.5s !important;
+  background-size: 200% auto !important;
+  color: white !important;
+  box-shadow: 0 0 20px #eee !important;
+  border-radius: 5px !important;
+  display: block !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  margin: 0 !important;
+  line-height: 25px !important;
+  text-transform: capitalize !important;
+}
+
+.btn-grad:hover {
+  background-position: right center !important; /* change the direction of the change here */
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important;
+}
+.border-gray-300 {
+  border-color: rgb(209 213 219) !important;
+}
+.success{
+  color: green;
+  border:1px solid green;
+}
+div.message{
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 13px !important;
+}
+div.err-message{
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+.cl-align-center{
+  align-items: center;
+}
+.cl-close{
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  cursor: pointer;
+}
+.cl-close{}
+.text-error {
+  font-size: 12px !important;
+  line-height: 20px !important;
+  font-weight: normal !important;
+}
+.cl-loader-spinner {
+  margin: 6px 0 0 7px !important;
+  display: none;
+}
+
+@media screen and (max-width:767px) {
+  .cl-wrapper {
+    width: 100% !important;
+}
+}

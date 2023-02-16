@@ -1,0 +1,23 @@
+{
+    "name": "collect-lead-form/collect-lead-form",
+    "type": "project",
+    "description": "This form is designed to collect lead easily, or use as contact form. if you want to modify or add new form, please contact the plugin owner faferdaus@gmail.com.",
+    "license": "GPLv2",
+    "autoload": {
+        "files": [
+            "inc/helpers.php"
+        ],
+        "psr-4": {
+            "CollectLeadContactForm\\": "Classes/"
+        }
+    },
+    "require": {
+        "htmlburger/carbon-fields-plugin": "^3.3",
+        "wolfiesites/carbon-field-wolfie-password": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
