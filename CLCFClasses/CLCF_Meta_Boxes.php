@@ -18,7 +18,7 @@ class CLCF_Meta_Boxes
     // Add custom metabox in the custom post 'cl_leads'
     public function clcf_meta_boxes()
     {
-        add_meta_box('clcf_metabox', esc_html_e('Lead'), array($this, 'display_clcf'), 'clcf_leads');
+        add_meta_box('clcf_metabox', 'Lead', array($this, 'display_clcf'), 'clcf_leads');
     }
 
     // Display custom metabox and data

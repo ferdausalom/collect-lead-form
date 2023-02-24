@@ -172,7 +172,7 @@
                                                             <td style='overflow-wrap:break-word;word-break:break-word;padding:30px 13px 0px 25px;font-family:arial,helvetica,sans-serif;' align='left'>
     
                                                                 <div style='font-size: 16px; line-height: 140%; text-align: left; word-wrap: break-word;'>
-                                                                    <p style='line-height: 140%;'><strong>Name: </strong>Adam Sims</p>
+                                                                    <p style='line-height: 140%;'><strong>Name: </strong>Lacey Gomez</p>
                                                                 </div>
     
                                                             </td>
@@ -186,7 +186,7 @@
                                                             <td style='overflow-wrap:break-word;word-break:break-word;padding:13px 13px 13px 25px;font-family:arial,helvetica,sans-serif;' align='left'>
     
                                                                 <div style='font-size: 16px; line-height: 140%; text-align: left; word-wrap: break-word;'>
-                                                                    <p style='line-height: 140%;'><strong>Email: </strong>faromolegi@mailinator.com</p>
+                                                                    <p style='line-height: 140%;'><strong>Email: </strong>hikolekeb@mailinator.com</p>
                                                                 </div>
     
                                                             </td>
@@ -297,7 +297,7 @@
                                                             <td style='overflow-wrap:break-word;word-break:break-word;padding:0px 13px 13px 25px;font-family:arial,helvetica,sans-serif;' align='left'>
     
                                                                 <div style='font-size: 16px; line-height: 140%; text-align: left; word-wrap: break-word;'>
-                                                                    <p style='line-height: 140%;'>Deserunt ut pariatur</p>
+                                                                    <p style='line-height: 140%;'>Et non et similique</p>
                                                                 </div>
     
                                                             </td>

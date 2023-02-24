@@ -24,6 +24,18 @@ class CLCF_Enqueue_Scripts
         if (!wp_script_is('jquery', 'enqueued')) {
             wp_enqueue_script('jquery');
         }
+
+        wp_enqueue_script('clcf-main', CLCF__PLUGIN_URL . 'assets/js/clcf-main.js', array('jquery'), CLCF_VERSION, false);
+
+        wp_localize_script(
+
+            'clcf-main', //Enqueued JS file handle
+            'clcf_rest_url', //Localized ID that need to use in the JS file
+
+            array(
+                'url' => esc_url(get_rest_url(null, 'clcf/v1/collect-lead-form')),
+            )
+        );
     }
 
     // Enqueue carbon-fields css

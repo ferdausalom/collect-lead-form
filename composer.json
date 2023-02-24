@@ -8,7 +8,7 @@
             "inc/helpers.php"
         ],
         "psr-4": {
-            "CollectLeadContactForm\\": "Classes/"
+            "CollectLeadContactForm\\": "CLCFClasses/"
         }
     },
     "require": {

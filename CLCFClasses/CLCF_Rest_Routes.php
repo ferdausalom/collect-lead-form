@@ -65,7 +65,7 @@ class CLCF_Rest_Routes
         (new CLCF_Create_Email_Template)->clcf_email_template($validatedParams);
 
         // Email the lead 
-        (new CLCF_Email)->clcf_email_the_lead($validatedParams);
+        (new CLCF_Email($validatedParams))->clcf_email_the_lead();
 
         // Show success message in the front-end 
         clcf_json_encode(true, esc_html(carbon_get_theme_option('clcf_success')));

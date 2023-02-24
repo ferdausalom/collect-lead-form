@@ -16,11 +16,19 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-// Load vendor autoload
-require __DIR__ . '/vendor/autoload.php';
+// Load Composer autoloader
+$clcf_autoload_file = __DIR__ . '/vendor/autoload.php';
+if (file_exists($clcf_autoload_file)) {
+    require_once $clcf_autoload_file;
+}
+
+// Register your plugin's namespace with Composer
+$loader = new \Composer\Autoload\ClassLoader();
+$loader->addPsr4('CollectLeadContactForm\\', __DIR__ . '/CLCFClasses');
+$loader->register();
 
 // Define plugin constants 
-define('CLCF_VERSION', '1.0');
+define('CLCF_VERSION', '1.0.0');
 define('CLCF__PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('CLCF__PLUGIN_URL', plugin_dir_url(__FILE__));
 
@@ -31,9 +39,6 @@ use CollectLeadContactForm\CLCF_Rest_Routes;
 use CollectLeadContactForm\CLCF_Carbon_Fields;
 use CollectLeadContactForm\CLCF_Meta_Boxes;
 use CollectLeadContactForm\CLCF_Custom_Posts;
-
-require_once ABSPATH . WPINC . '/class-phpmailer.php';
-require_once ABSPATH . WPINC . '/class-smtp.php';
 
 
 class Plugin_CLCF_Bootstrap
