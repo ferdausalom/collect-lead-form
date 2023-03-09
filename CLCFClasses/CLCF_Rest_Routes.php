@@ -24,11 +24,12 @@ class CLCF_Rest_Routes
     // Register REST API
     public function create_clcf_rest_endpoints()
     {
-        register_rest_route('clcf/v1/', 'collect-lead-form', array(
+        register_rest_route('clcf/v1', '/collect-lead-form', array(
             'methods' => 'POST',
             'callback' => array($this, 'clcf_submit_form'),
             'args' => $this->clcf_rest_args(),
             'show_in_index'       => false,
+            'permission_callback' => '__return_true'
         ));
     }
 
